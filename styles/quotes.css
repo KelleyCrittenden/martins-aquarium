@@ -1,0 +1,9 @@
+.quoteList {
+    background-color: lightyellow;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.quote {
+    background-color: yellow;
+}

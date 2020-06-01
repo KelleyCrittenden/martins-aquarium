@@ -1,0 +1,13 @@
+.fishList {
+    background-color: mediumorchid;
+}
+
+.fish {
+    background-color: mediumvioletred;
+}
+
+
+.fish__picture {
+    max-width: 15rem;
+    max-height: 15rem;
+}

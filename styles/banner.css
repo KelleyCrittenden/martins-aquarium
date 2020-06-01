@@ -1,0 +1,8 @@
+.banner {
+    display: flex;
+    flex-direction: rows;
+    background-color: #c7f9cc;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    color: #22577A;
+}
