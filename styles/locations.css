@@ -1,13 +1,15 @@
-.locationList {
+.locationsList {
     background-color: mediumaquamarine;
 }
 
-.location {
+.locations {
     background-color: mediumseagreen;
+    width: 50%;
+    height: 50%;
 }
 
 
-.location__picture {
+.locations__picture {
     max-width: 15rem;
     max-height: 15rem;
 }
