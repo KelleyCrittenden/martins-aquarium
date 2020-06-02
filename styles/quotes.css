@@ -1,9 +1,9 @@
 .quoteList {
-    background-color: lightyellow;
+    background-color: white;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .quote {
-    background-color: yellow;
+    background-color: #38a3a5
 }
