@@ -3,7 +3,7 @@ const fishCollection = [
         species: "Green Mandarin Goby",
         name: "Ollie",
         food: ["algae", "crustaceans"],
-        length: 8,
+        length: 6,
         location: "Bora Bora, Tahiti",
         picture: "https://saltwateraquariumblog.com/wp-content/uploads/2009/11/mandarin-by-Luc-Viatour.jpg"
     },
@@ -12,7 +12,7 @@ const fishCollection = [
         species: "Wrasses",
         name: "River",
         food: ["algae", "crustaceans"],
-        length: 10,
+        length: 9,
         location: "Riviera Maya, Mexico",
         picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Wrasses.jpg"
     },
@@ -30,7 +30,7 @@ const fishCollection = [
         species: "Royal Gramma Basslet",
         name: "Queenie",
         food: ["algae", "crustaceans"],
-        length: 6,
+        length: 10,
         location: "Carribean Sea",
         picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Royal-Gramma-Basslet.jpg"
     },
@@ -39,7 +39,7 @@ const fishCollection = [
         species: "Tang",
         name: "Goldie",
         food: ["algae", "crustaceans"],
-        length: 7,
+        length: 12,
         location: "Kauai, Hawaii",
         picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Tang-Fish.jpg"
     },
@@ -48,7 +48,7 @@ const fishCollection = [
         species: "Watchman Goby",
         name: "Echo",
         food: ["algae", "crustaceans"],
-        length: 4,
+        length: 20,
         location: "Australia",
         picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Watchman-Goby.jpg"
     },
@@ -72,3 +72,44 @@ const fishCollection = [
     }
 ]
 
+    // 3, 6, 9, 12, etc... fish
+const mostHolyFish = () => {
+    let holyFish = []
+
+    for (fish of fishCollection) {
+      if (fish.length % 3 === 0) {
+          holyFish.push(fish)
+        } 
+        
+    }
+    return holyFish
+}
+
+
+// 5, 10, 15, 20, 25, etc... fish
+const soldierFish = () => {
+    let soldiers =[]
+
+    for (fish of fishCollection) {
+        if (fish.length % 5 === 0 && fish.length % 3 !==0){
+            soldiers.push(fish)
+        }
+    }
+    return soldiers
+}
+
+// Any fish not a multiple of 3 or 5
+const nonHolyFish = () => {
+    let regularFish = []
+
+    for (fish of fishCollection) {
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
+            regularFish.push(fish)
+        } 
+    }
+
+
+    return regularFish
+}
+
+console.log(nonHolyFish())

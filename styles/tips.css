@@ -1,8 +1,17 @@
 .tipsList {
-    background-color: dodgerblue;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #57cc99;
+    justify-content: center;
+    height: max-content;
+
 }
 
 .tips {
-    background-color: royalblue;
+    display: flex;
+    background-color: #c7f9cc;
+    border: 2px solid #22577a;
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
 }

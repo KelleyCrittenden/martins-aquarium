@@ -1,6 +1,6 @@
 const tipsCollection = [
     {
-       tips: "1. Place the Aquarium in the Ideal Location." 
+       tips: "1. Place the aquarium in the ideal location." 
     },
     
     {
@@ -8,7 +8,7 @@ const tipsCollection = [
     },
 
     {
-        tips: "3. Purchase a Good Stand."
+        tips: "3. Purchase a good stand."
     },
 
     {

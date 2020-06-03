@@ -1,5 +1,5 @@
 
- /*responsible for generating a list of tip HTML represenations and putting in the browswer */
+ /*responsible for generating a list of quote HTML represenations and putting in the browswer */
 
  const quotesList = () => {
 

@@ -1,4 +1,4 @@
-/* this function will conver a single fish object t oan HTML represenative and return it
+/* this function will conver a single locations object t oan HTML represenative and return it
 
 */
 const locationsConverter = (locationsObject) => {
@@ -11,7 +11,7 @@ const locationsConverter = (locationsObject) => {
         </div>
 
         <div class="locations__details">
-            locations: ${locationsObject.locations}
+            ${locationsObject.locations}
         </div>
     </section>`
 
