@@ -1,11 +1,17 @@
 .locationsList {
-    background-color: mediumaquamarine;
+    background-color:#57cc99;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
 }
 
 .locations {
-    background-color: mediumseagreen;
-    width: 50%;
-    height: 50%;
+
+    background-color:#c7f9cc;;
+    margin-bottom: 1.25rem;
+    text-align: center;
 }
 
 

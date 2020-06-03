@@ -2,7 +2,7 @@
 
 */
 const quotesConverter = (quotesObject) => {
-debugger
+
 
     const quotesHTMLRepresentation = ` <section class="quotes">
         ${quotesObject.quotes}
