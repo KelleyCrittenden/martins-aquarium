@@ -38,3 +38,41 @@ const fishList = () => {
     showNonHolyFish()    
     
 }
+
+const fishTypeDropdown = document.querySelector(".typeChoice")
+const contentTarget = document.querySelector(".fishList")
+
+
+const clearFishList = () => contentTarget.innerHTML = ""
+
+fishTypeDropdown.addEventListener("change", (clickEvent) => {
+    // Get the value of the option chosen by the user
+    const userChoice = clickEvent.target.value
+
+    // If the user chose Holy, clear the list and only show holy fish
+    if (userChoice === "holy") {
+        clearFishList()
+        showHolyFish()
+    }
+
+    else if (userChoice === "soldier") {
+        clearFishList()
+        showSoldierFish()
+    }    
+
+    else if (userChoice === "regular") {
+            clearFishList()
+            showNonHolyFish()
+    }            
+} )   
+
+
+const fishVisibilityButton = document.querySelector(".toggleFish")
+
+fishVisibilityButton.addEventListener("click", (clickEvent) => {
+
+    document.querySelector(".fishList").classList.toggle("hidden")
+})
+
+
+
