@@ -63,7 +63,13 @@ fishTypeDropdown.addEventListener("change", (clickEvent) => {
     else if (userChoice === "regular") {
             clearFishList()
             showNonHolyFish()
-    }            
+    } 
+    
+    else if (userChoice === "all") {
+        clearFishList()
+        fishList()
+    }
+    
 } )   
 
 
