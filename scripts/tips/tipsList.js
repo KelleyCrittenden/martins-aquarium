@@ -12,4 +12,12 @@
 
    tipsArticleElement.innerHTML += tipsHTML
    }
-}    
+}   
+
+
+const tipsVisibilityButton = document.querySelector(".toggleTips")
+
+tipsVisibilityButton.addEventListener("click", (clickEvent) => {
+
+    document.querySelector(".tipsList").classList.toggle("hidden")
+})

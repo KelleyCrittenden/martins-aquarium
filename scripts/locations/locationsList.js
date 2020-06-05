@@ -13,3 +13,13 @@
    
     }
 }
+
+
+const locationVisibilityButton = document.querySelector(".toggleLocations")
+
+locationVisibilityButton.addEventListener("click", (clickEvent) => {
+    // const locationListArticle = document.querySelector(".locationList")
+    // locationListArticle.classList.toggle("hidden")
+
+    document.querySelector(".locationsList").classList.toggle("hidden")
+})
