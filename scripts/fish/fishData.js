@@ -1,76 +1,19 @@
-const fishCollection = [
-    {
-        species: "Green Mandarin Goby",
-        name: "Ollie",
-        food: ["algae", "crustaceans"],
-        length: 6,
-        location: "Bora Bora, Tahiti",
-        picture: "https://saltwateraquariumblog.com/wp-content/uploads/2009/11/mandarin-by-Luc-Viatour.jpg"
-    },
+let fishCollection = []
 
-    {
-        species: "Wrasses",
-        name: "River",
-        food: ["algae", "crustaceans"],
-        length: 9,
-        location: "Riviera Maya, Mexico",
-        picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Wrasses.jpg"
-    },
+const getFishData = () => {
+    return fetch("http://localhost:8088/fish").then(
+        (httpResponse) => {
+            return httpResponse.json()
+        }
+    )
+        .then( 
+            (arrayOfFish) => {
+                //100% sure the data is back
+            fishCollection = arrayOfFish  
+            } 
+        )    
+} 
 
-    {
-        species: "Coral Beauties",
-        name: "Cora",
-        food: "algae",
-        length: 5,
-        location: "Australia",
-        picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Coral-Beauties.jpg"
-    },
-
-    {
-        species: "Royal Gramma Basslet",
-        name: "Queenie",
-        food: ["algae", "crustaceans"],
-        length: 10,
-        location: "Carribean Sea",
-        picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Royal-Gramma-Basslet.jpg"
-    },
-
-    {
-        species: "Tang",
-        name: "Goldie",
-        food: ["algae", "crustaceans"],
-        length: 12,
-        location: "Kauai, Hawaii",
-        picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Tang-Fish.jpg"
-    },
-
-    {
-        species: "Watchman Goby",
-        name: "Echo",
-        food: ["algae", "crustaceans"],
-        length: 20,
-        location: "Australia",
-        picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Watchman-Goby.jpg"
-    },
-
-    {
-        species: "Dottyback",
-        name: "Dottie",
-        food: ["algae", "crustaceans"],
-        length: 13,
-        location: "Riviera Maya, Mexico",
-        picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Dottyback.jpg" 
-    },
-
-    {
-        species: "Blenny Fish",
-        name: "Benny",
-        food: ["algae", "crustaceans"],
-        length: 8,
-        location: "Bora Bora, Tahiti",
-        picture: "https://aquariumadviser.com/wp-content/uploads/2018/12/Blenny-Fish.jpg"
-    }
-]
 
     // 3, 6, 9, 12, etc... fish
 const mostHolyFish = () => {

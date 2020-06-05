@@ -1,14 +1,15 @@
-const quotesCollection = [
-    {
-       quotes: "Even a fish wouldn't get into trouble if he kept his mouth shut" 
-    },
-    
-    {
-        quotes: "Never offer to teach a fish to swim -Proverb"
-    },
+let quotesCollection = []  
 
-    {
-        quotes: "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid - Albert Einstein"
-    }
-
-]    
+const getQuotesData = () => {
+    return fetch("http://localhost:8088/quotes").then(
+        (httpResponse) => {
+            return httpResponse.json()
+        }
+    )
+        .then( 
+            (arrayOfQuotes) => {
+                //100% sure the data is back
+            quotesCollection = arrayOfQuotes  
+            } 
+        )    
+} 

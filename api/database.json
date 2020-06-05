@@ -1,0 +1,157 @@
+{
+    "fish": [    
+    {
+        "id": 1,
+        "species": "Green Mandarin Goby",
+        "name": "Ollie",
+        "food": "crustaceans",
+        "length": 6,
+        "location": "Bora Bora, Tahiti",
+        "picture": "https://saltwateraquariumblog.com/wp-content/uploads/2009/11/mandarin-by-Luc-Viatour.jpg"
+    },
+
+    {
+        "id": 2,
+        "species": "Wrasses",
+        "name": "River",
+        "food": "seaweed",
+        "length": 9,
+        "location": "Riviera Maya, Mexico",
+        "picture": "https://aquariumadviser.com/wp-content/uploads/2018/12/Wrasses.jpg"
+    },
+
+    {
+        "id": 3,
+        "species": "Coral Beauties",
+        "name": "Cora",
+        "food": "algae",
+        "length": 5,
+        "location": "Australia",
+        "picture": "https://aquariumadviser.com/wp-content/uploads/2018/12/Coral-Beauties.jpg"
+    },
+
+    {
+        "id": 4,
+        "species": "Royal Gramma Basslet",
+        "name": "Queenie",
+        "food": "plankton",
+        "length": 10,
+        "location": "Carribean Sea",
+        "picture": "https://aquariumadviser.com/wp-content/uploads/2018/12/Royal-Gramma-Basslet.jpg"
+    },
+
+    {
+        "id": 5,
+        "species": "Tang",
+        "name": "Goldie",
+        "food": "brine shrimp",
+        "length": 12,
+        "location": "Kauai, Hawaii",
+        "picture": "https://aquariumadviser.com/wp-content/uploads/2018/12/Tang-Fish.jpg"
+    },
+
+    {
+        "id": 6,
+        "species": "Watchman Goby",
+        "name": "Echo",
+        "food": "aquatic insect larvae",
+        "length": 20,
+        "location": "Australia",
+        "picture": "https://aquariumadviser.com/wp-content/uploads/2018/12/Watchman-Goby.jpg"
+    },
+
+    {
+        "id": 7,
+        "species": "Dottyback",
+        "name": "Dottie",
+        "food": "bristleworms",
+        "length": 13,
+        "location": "Riviera Maya, Mexico",
+        "picture": "https://aquariumadviser.com/wp-content/uploads/2018/12/Dottyback.jpg" 
+    },
+
+    {
+        "id": 8,
+        "species": "Blenny Fish",
+        "name": "Benny",
+        "food": "small snails",
+        "length": 8,
+        "location": "Bora Bora, Tahiti",
+        "picture": "https://aquariumadviser.com/wp-content/uploads/2018/12/Blenny-Fish.jpg"
+    }],
+
+
+"locations": [
+        {
+            "id": 1,
+            "locations": "Bora Bora, French Polynesia",
+            "picture": "https://www.tahiti.com/images1/gallery/conrad-bora-bora-nui-aerial-2000x1200_53316.jpg"
+        },
+    
+        {
+            "id": 2,
+            "locations": "Kauai, Hawaii",
+            "picture": "https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/08/Kauai-lead.jpg"
+        },
+    
+    
+        {
+            "id": 3,
+            "locations": "Riviera Maya, Mexico",
+            "picture": "https://www.westjet.com/assets/wj-web/images/en/destination-defaults/cun-tile.jpg"
+        },
+    
+        {
+            "id": 4,
+            "locations": "Caribbean Sea",
+            "picture": "https://caribbeannewsservice.com/now/wp-content/uploads/2017/05/Caribbean-Sea.jpg"
+        }
+],
+
+
+
+"tips": [
+        {
+           "id": 1,
+           "tips": "1. Place the aquarium in the ideal location." 
+         },
+         
+         {
+            "id": 2,
+             "tips": "2. Choose the right tank size."
+         },
+     
+         {
+            "id": 3,
+             "tips": "3. Purchase a good stand."
+         },
+     
+         {
+            "id": 4,
+             "tips": "4. Clean the tank before you fill it"
+         },
+     
+         {
+            "id": 5,
+             "tips": "5. Rinse the gravel before adding it."
+         }
+    ],
+
+
+"quotes": [
+        {
+            "id": 1,
+            "quotes": "Even a fish wouldn't get into trouble if he kept his mouth shut" 
+         },
+         
+         {
+            "id": 2,
+             "quotes": "Never offer to teach a fish to swim -Proverb"
+         },
+     
+         {
+            "id": 3,
+             "quotes": "Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid - Albert Einstein"
+         }
+    ]
+}    
