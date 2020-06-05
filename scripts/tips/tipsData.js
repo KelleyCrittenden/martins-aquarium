@@ -1,22 +1,16 @@
-const tipsCollection = [
-    {
-       tips: "1. Place the aquarium in the ideal location." 
-    },
-    
-    {
-        tips: "2. Choose the right tank size."
-    },
+let tipsCollection = [] 
 
-    {
-        tips: "3. Purchase a good stand."
-    },
 
-    {
-        tips: "4. Clean the tank before you fill it"
-    },
-
-    {
-        tips: "5. Rinse the gravel before adding it."
-    }
-
-]    
+const getTipsData = () => {
+    return fetch("http://localhost:8088/tips").then(
+        (httpResponse) => {
+            return httpResponse.json()
+        }
+    )
+        .then( 
+            (arrayOfTips) => {
+                //100% sure the data is back
+            tipsCollection = arrayOfTips
+            } 
+        )    
+} 
